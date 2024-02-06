@@ -1,0 +1,217 @@
+body {
+    font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+}
+
+header {
+    max-width: 1260px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo-container {
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header-background {
+    background-color: #404eed;
+    height: 625px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    
+}
+
+header div button {
+    background-color: white;
+    border: none;
+    padding: 7px 16px;
+    border-radius: 40px;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 24px;
+    transition: 0.3s;
+}
+
+header div button:hover {
+    color: #5865f4;
+    box-shadow: 0 8px 15px rgba(0,0,0,.2);
+
+}
+
+.msg-container {
+    margin: 110px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1260px;
+
+}
+
+
+.msg-container h1 {
+    color: white;
+    font-family: "ABC Ginto Nord","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 56px;
+    font-weight: 800;
+    text-align: center;
+    width: 780px;
+    margin: 0 auto;
+}
+
+.msg-container p{
+    text-align: center;
+    color: #e0ffff;
+    font-size: 20px;
+    margin: 40px auto 0 auto;
+    width: 780px;
+    line-height: 1.625;
+    font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+}
+
+.msg-container .buttons button {
+    border: none;
+    padding: 16px 32px;
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.msg-container .buttons #download-button {
+    background-color: white;
+    margin: 24px 24px 0px 0px;
+}
+
+.msg-container .buttons #browser-button {
+    background-color: #23272a;
+    color: white;
+    margin: 24px 0px 0px;
+}
+
+.main-container .container {
+    max-width: 1260px;
+    margin: 40px auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.container .image {
+    flex-basis: 60%;
+}
+
+.container .text {
+    flex-basis: 40%;
+}
+
+.container h1 {
+    font-size: 48px;
+    color: #23272a;
+}
+
+.container p {
+    font-size: 20px;
+    color: #23272a;
+    margin: 24px 0px 0px;
+    line-height: 1.625;
+}
+
+.fourth-section .container {
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: "ABC Ginto Nord","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.fifth-section .container {
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: "ABC Ginto Nord","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.container button {
+    background-color: #5865f2;
+    color: #e0ffff;
+    margin-top: 40px;
+    padding: 16px 32px;
+    font-size: 20px;
+    font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+
+}
+
+.container button:hover {
+    background-color: #7983f5;
+    box-shadow: 0 8px 15px rgba(0,0,0,.2);
+}
+
+footer {
+    height: 611px;
+    background-color: #23272a;
+}
+
+footer .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+    padding: 80px 0px 64px;
+    font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    max-width: 1260px;
+}
+
+.footer-container .container ul{
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0;
+}
+
+.footer-container .container h2 {
+    color: #7983f5;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer-container .container ul li {
+    font-size: 16px;
+    color: white;
+    line-height: 32px;
+
+}
+
+.footer-container img {
+    margin-top: 27px;
+    margin-left: 20px;
+}
